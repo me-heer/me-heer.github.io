@@ -10,12 +10,12 @@ body {
 
 .container {
   display: grid;
-  place-items: center;
+  place-items: left;
   margin: 20vh 20vw;
   padding: 5px;
 }
 
-.header {
+.project-header {
   max-width: 650px;
   font-size: xx-large;
   color: white;
@@ -23,22 +23,28 @@ body {
 }
 
 .subtitle {
-  max-width: 650px;
-  font-size: x-large;
+  max-width: 900px;
+  font-size: larger;
   color: grey;
   text-align: justify;
   padding-top: 5px;
 }
 
-.links {
+.tech-pills {
   color: grey;
   font-size: medium;
   text-decoration: none;
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
 a {
   text-decoration: none;
+}
+
+hr {
+  width: 100%;
+  border-color: gray;
+  opacity: 30%;
 }
 
 .header {
@@ -86,4 +92,14 @@ a {
   .container {
     margin: 15vh auto;
   }
+}
+
+.icon-link {
+  opacity: 10%;
+  padding: 7px;
+  color: white;
+}
+
+.icon-link:hover {
+  opacity: 100%;
 }
