@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+  background-color: black;
+  text-decoration-color: white;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  margin: 20vh 20vw;
+  padding: 5px;
+}
+
+.header {
+  max-width: 650px;
+  font-size: xx-large;
+  color: white;
+  text-align: justify;
+}
+
+.subtitle {
+  max-width: 650px;
+  font-size: x-large;
+  color: grey;
+  text-align: justify;
+  padding-top: 5px;
+}
+
+.links {
+  color: grey;
+  font-size: medium;
+  text-decoration: none;
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  opacity: 90%;
+}
+
+.header {
+  max-width: 650px;
+  font-size: xx-large;
+  color: white;
+  text-align: justify;
+}
+
+.about {
+  font-size: medium;
+  color: white;
+  max-width: 650px;
+  padding-top: 50px;
+  text-align: left;
+  font-size: large;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #93e9be;
+  font-size: large;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #93e9be;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 20vh auto;
+  }
+}
