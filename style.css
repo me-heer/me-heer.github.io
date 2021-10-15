@@ -84,6 +84,6 @@ a {
 
 @media screen and (max-width: 600px) {
   .container {
-    margin: 20vh auto;
+    margin: 10vh auto;
   }
 }
