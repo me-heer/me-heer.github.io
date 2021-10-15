@@ -39,7 +39,6 @@ body {
 
 a {
   text-decoration: none;
-  opacity: 90%;
 }
 
 .header {
@@ -52,7 +51,7 @@ a {
 .about {
   font-size: medium;
   color: white;
-  max-width: 650px;
+  max-width: 800px;
   padding-top: 50px;
   text-align: left;
   font-size: large;
